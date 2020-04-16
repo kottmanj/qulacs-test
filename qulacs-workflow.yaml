@@ -11,7 +11,7 @@ resources:
 - name: qulacs-t
   type: git
   parameters:
-    url: "git@github.com:philipp-q/qulacs-test.git"
+    url: "git@github.com:kottmanj/qulacs-test.git"
     branch: "master"
 #- name: z-quantum-core
 #  type: git

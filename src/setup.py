@@ -2,11 +2,11 @@ import setuptools
 import os
 
 setuptools.setup(
-    name="qulacs-test",
+    name="mymodule",
     version="0.1.0",
-    py_modules=['mymodule'],
+    #py_modules=['mymodule'],
     package_dir={'': 'src'},
-    packages=find_packages(include=['src','src/mymodule']),
+    packages=setuptools.find_packages(include=['src']),
     install_requires=[
       #  'z-quantum-core',
         'cmake',
