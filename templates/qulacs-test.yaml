@@ -15,7 +15,7 @@ spec:
         raw:
           data: |
             import json
-            from qulacstest import qtest
+            from mymodule import qtest
             out = qtest({{inputs.parameters.angle}})
             out['schema'] = "qulacs-test"
             with open('output.json', 'w') as f:
