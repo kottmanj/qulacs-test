@@ -1,0 +1,3 @@
+cmake
+gcc7
+qulacs
